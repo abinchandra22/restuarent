@@ -1,4 +1,4 @@
-import { useContext } from 'react'
+import { useContext, useState } from 'react'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navigate, Route, Routes } from 'react-router-dom';
@@ -6,7 +6,8 @@ import Home from './pages/Home';
 import Auth from './pages/Auth';
 import Dashboard from './pages/Dashboard';
 import Stores from './pages/Stores';
-import View from './pages/view';
+// import View from './pages/view';
+import View from './pages/View'
 import { tokenAuthContext } from './context/TokenAuth';
 
 function App() {

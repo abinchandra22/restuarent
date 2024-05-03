@@ -1,8 +1,8 @@
 import React from 'react'
 import Header from '../components/Header'
 import Addcmt from '../components/Addcmt'
-// import { useState } from 'react'
-// import { useEffect } from 'react'
+import { useState } from 'react'
+import { useEffect } from 'react'
 function view() {
 
   return (
